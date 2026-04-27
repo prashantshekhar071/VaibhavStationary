@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vaibhav stationary - Premium Online Stationery Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">🎨 vaibhav stationary</div>
+                <nav>
+                    <a onclick="showPage('home')" class="active">Home</a>
+                    <a onclick="showPage('products')">Products</a>
+                    <a onclick="showPage('about')">About Us</a>
+                </nav>
+                <div class="cart-icon" onclick="showPage('cart')">
+                    🛒 Cart <span class="cart-count" id="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- HOME PAGE -->
+        <section id="home" class="page-section active">
+            <div class="hero">
+                <h1>Welcome to vaibhav stationary</h1>
+                <p>Your One-Stop Destination for Premium Quality Stationery</p>
+                <a class="cta-button" onclick="showPage('products')">Shop Now</a>
+            </div>
+
+            <div class="description">
+                <h2>About Our Store</h2>
+                <p>
+                    Welcome to vaibhav stationary, where we believe that quality stationery is more than just writing tools—it's about expressing creativity, 
+                    maintaining organization, and bringing your ideas to life. With over 15 years of experience in the stationery industry, we have 
+                    established ourselves as one of the most trusted names in providing premium quality stationery products at affordable prices.
+                </p>
+                <br>
+                <p>
+                    Our mission is simple yet profound: to empower students, professionals, and creative minds with stationery products that enhance 
+                    productivity and inspire creativity. We carefully curate every product in our collection, ensuring that each item meets our strict 
+                    quality standards and provides exceptional value for money. From basic pencils and notebooks to sophisticated desk accessories and 
+                    complete stationery kits, we have everything you need to fuel your passion for organization and creativity.
+                </p>
+                <br>
+                <p>
+                    At Ajay Stationary, we understand the importance of having the right tools for the job. Whether you're a student preparing for exams, 
+                    a professional organizing your workspace, or an artist looking for quality materials, we have carefully selected products that cater 
+                    to your specific needs. Our diverse range includes everyday essentials as well as specialty items that are harder to find elsewhere.
+                </p>
+                <br>
+                <p>
+                    We pride ourselves on our customer service excellence and commitment to providing the best shopping experience. Our knowledgeable staff 
+                    is always ready to help you find the perfect product, and our hassle-free return policy ensures your complete satisfaction. We also offer 
+                    fast and reliable shipping to ensure your orders reach you in perfect condition and on time.
+                </p>
+            </div>
+
+            <div class="features">
+                <div class="feature-card">
+                    <h3>🚚 Fast Delivery</h3>
+                    <p>Quick and reliable shipping across the nation with real-time tracking</p>
+                </div>
+                <div class="feature-card">
+                    <h3>💎 Premium Quality</h3>
+                    <p>Carefully selected products that meet international quality standards</p>
+                </div>
+                <div class="feature-card">
+                    <h3>💰 Affordable Prices</h3>
+                    <p>Best prices on premium stationery without compromising on quality</p>
+                </div>
+                <div class="feature-card">
+                    <h3>✅ Verified Seller</h3>
+                    <p>Trusted by thousands of customers with excellent ratings and reviews</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🔄 Easy Returns</h3>
+                    <p>30-day hassle-free return policy for your complete satisfaction</p>
+                </div>
+                <div class="feature-card">
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock customer support to assist you anytime, anywhere</p>
+                </div>
+            </div>
+
+            <!-- Featured Products Section -->
+            <div class="featured-products-section">
+                <h2>🌟 Featured Products</h2>
+                <div class="featured-products-grid" id="featured-products">
+                    <!-- Featured products will be rendered here -->
+                </div>
+            </div>
+
+            <!-- Why Choose Us Section -->
+            <div class="why-choose-us">
+                <h2>Why Choose vaibhav stationary?</h2>
+                <div class="why-grid">
+                    <div class="why-card">
+                        <div class="why-number">1</div>
+                        <h3>Trusted Since 2009</h3>
+                        <p>Over 15 years of serving quality stationery to thousands of satisfied customers across India</p>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-number">2</div>
+                        <h3>Curated Collection</h3>
+                        <p>Every product is carefully selected and tested to meet our high-quality standards</p>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-number">3</div>
+                        <h3>Best Prices</h3>
+                        <p>Competitive pricing without compromising on quality - get more value for your money</p>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-number">4</div>
+                        <h3>Quick Shipping</h3>
+                        <p>Most orders dispatched within 24 hours with reliable delivery tracking</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Customer Testimonials -->
+            <div class="testimonials-section">
+                <h2>📢 What Our Customers Say</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p>"Excellent quality stationery at very affordable prices. Fast delivery and great customer service!"</p>
+                        <div class="testimonial-author">- Priya Sharma</div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p>"I've been ordering from vaibhav stationary for 2 years. Never disappointed. Highly recommended!"</p>
+                        <div class="testimonial-author">- Rajesh Kumar</div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p>"Perfect for students and professionals. Great variety and excellent value for money."</p>
+                        <div class="testimonial-author">- Anjali Singh</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="faq-section">
+                <h2>❓ Frequently Asked Questions</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            ▶ How soon will I receive my order?
+                        </div>
+                        <div class="faq-answer">
+                            Most orders are dispatched within 24 hours and delivered within 3-5 business days depending on your location. You'll receive tracking information via email.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            ▶ What is your return policy?
+                        </div>
+                        <div class="faq-answer">
+                            We offer a 30-day hassle-free return policy. If you're not satisfied with your purchase, simply contact us and we'll arrange for a return or replacement.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            ▶ Do you offer bulk orders?
+                        </div>
+                        <div class="faq-answer">
+                            Yes! We offer special discounts for bulk orders. Contact us at vaibhavgupta831002@gmail.com or call 9523181377 for bulk pricing.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            ▶ What payment methods do you accept?
+                        </div>
+                        <div class="faq-answer">
+                            We accept Credit Card, Debit Card, UPI, Net Banking, Digital Wallets, and Cash on Delivery for your convenience.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Newsletter Section -->
+            <div class="newsletter-section">
+                <h2>📧 Subscribe to Our Newsletter</h2>
+                <p>Get exclusive deals, new product launches, and special offers delivered to your inbox!</p>
+                <div class="newsletter-form">
+                    <input type="email" id="newsletter-email" placeholder="Enter your email address" required>
+                    <button onclick="subscribeNewsletter()">Subscribe Now</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUCTS PAGE -->
+        <section id="products" class="page-section">
+            <h1 style="color: #667eea; margin: 2rem 0; text-align: center;">Our Premium Products</h1>
+            <div class="products-grid" id="products-container">
+                <!-- Products will be rendered here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- ABOUT US PAGE -->
+        <section id="about" class="page-section">
+            <div class="about-content">
+                <div class="about-hero">
+                    <h1>About vaibhav stationary</h1>
+                    <p>Building Dreams Through Quality Stationery</p>
+                </div>
+
+                <div class="about-section">
+                    <h2>Our Story</h2>
+                    <p>
+                        vaibhav stationary was founded in 2009 with a simple vision: to provide high-quality stationery products that help individuals 
+                        and businesses organize their lives and work effectively. What started as a small neighborhood shop has grown into a trusted 
+                        online stationery destination serving thousands of customers across the country. Our journey has been fueled by our passion 
+                        for stationery and our commitment to customer satisfaction.
+                    </p>
+                </div>
+
+                <div class="about-section">
+                    <h2>Our Mission</h2>
+                    <p>
+                        Our mission is to make premium quality stationery accessible to everyone. We believe that everyone deserves to have access to 
+                        excellent writing tools and organizational products that inspire creativity and boost productivity. We are dedicated to sourcing 
+                        the best products from trusted manufacturers globally and delivering them to our customers with exceptional service.
+                    </p>
+                </div>
+
+                <div class="about-section">
+                    <h2>Our Values</h2>
+                    <p>
+                        <strong>• Quality First:</strong> We never compromise on quality. Every product is tested and verified before reaching our customers.<br><br>
+                        <strong>• Customer Centric:</strong> Your satisfaction is our success. We go the extra mile to ensure you have the best experience.<br><br>
+                        <strong>• Integrity:</strong> We believe in transparent pricing and honest dealings with all our customers.<br><br>
+                        <strong>• Innovation:</strong> We constantly explore new products and solutions to meet the evolving needs of our customers.<br><br>
+                        <strong>• Sustainability:</strong> We are committed to eco-friendly practices and strive to minimize our environmental impact.
+                    </p>
+                </div>
+
+                <div class="about-section">
+                    <h2>Why Choose vaibhav stationary?</h2>
+                    <p>
+                        <strong>• Wide Selection:</strong> From basic essentials to premium specialty items, we have something for everyone.<br><br>
+                        <strong>• Competitive Pricing:</strong> Get the best value for your money without sacrificing quality.<br><br>
+                        <strong>• Expert Recommendations:</strong> Our team can help you find the perfect products for your specific needs.<br><br>
+                        <strong>• Fast Shipping:</strong> Most orders are dispatched within 24 hours and delivered promptly.<br><br>
+                        <strong>• Secure Payments:</strong> Your transactions are protected with industry-standard security measures.
+                    </p>
+                </div>
+
+                <div class="about-section">
+                    <h2>Contact Us</h2>
+                    <p>
+                        <strong>Email:</strong> vaibhavgupta831002@gmail.com<br>
+                        <strong>Phone:</strong> 9523181377<br>
+                        <strong>Address:</strong> Mill and Godown area, Burmamines, Jamshedpur, Golmuri cum Jugsalali, East Singhbhum, Jharkhand - 831002<br>
+                        <strong>Hours:</strong> Monday to Saturday, 10:00 AM - 7:00 PM IST
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CART PAGE -->
+        <section id="cart" class="page-section">
+            <h1 style="color: #667eea; margin: 2rem 0;">Your Shopping Cart</h1>
+            <div class="cart-container">
+                <div class="cart-items" id="cart-items">
+                    <!-- Cart items will be rendered here -->
+                </div>
+                <div class="cart-summary" id="cart-summary">
+                    <!-- Cart summary will be rendered here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- CHECKOUT PAGE -->
+        <section id="checkout" class="page-section">
+            <h1 style="color: #667eea; margin: 2rem 0;">Checkout</h1>
+            <div id="success-message" class="success-message"></div>
+            <div id="error-message" class="error-message"></div>
+            
+            <div class="checkout-container">
+                <div class="checkout-form">
+                    <h2>Delivery Details</h2>
+                    <form id="checkout-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" placeholder="Enter 10-digit number" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address">Street Address *</label>
+                            <textarea id="address" rows="2" required></textarea>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="city">City *</label>
+                                <input type="text" id="city" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="state">State *</label>
+                                <input type="text" id="state" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="zipCode">Postal Code *</label>
+                                <input type="text" id="zipCode" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="paymentMethod">Payment Method *</label>
+                            <select id="paymentMethod" required>
+                                <option value="">Select Payment Method</option>
+                                <option value="credit-card">Credit Card</option>
+                                <option value="debit-card">Debit Card</option>
+                                <option value="upi">UPI</option>
+                                <option value="net-banking">Net Banking</option>
+                                <option value="wallet">Digital Wallet</option>
+                                <option value="cod">Cash on Delivery</option>
+                            </select>
+                        </div>
+
+                        <button type="button" class="submit-btn" onclick="submitCheckout()">Place Order</button>
+                        <button type="button" style="width: 100%; background-color: #999; color: white; border: none; padding: 1rem; border-radius: 5px; font-size: 1rem; font-weight: bold; cursor: pointer; margin-top: 0.5rem;" onclick="showPage('cart')">Back to Cart</button>
+                    </form>
+                </div>
+
+                <div class="order-summary">
+                    <h2 style="color: #667eea; margin-bottom: 1rem;">Order Summary</h2>
+                    <div id="checkout-items">
+                        <!-- Order items will be rendered here -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ORDER SUCCESS PAGE -->
+        <section id="order-success" class="page-section">
+            <div class="success-container">
+                <div class="success-header">
+                    <div class="success-icon">✓</div>
+                    <h1>Order Successfully Placed!</h1>
+                    <p>Thank you for your purchase. Your order has been confirmed.</p>
+                </div>
+
+                <div class="success-content">
+                    <div class="order-id-section">
+                        <h3>Order ID</h3>
+                        <div class="order-id" id="display-order-id">VBS-2024001234</div>
+                        <p style="text-align: center; color: #999; font-size: 0.9rem; margin-top: 0.5rem;">Save this for your records</p>
+                    </div>
+
+                    <div class="order-details-section">
+                        <div class="details-row">
+                            <div class="details-item">
+                                <span class="details-label">Order Date</span>
+                                <span class="details-value" id="display-order-date">-</span>
+                            </div>
+                            <div class="details-item">
+                                <span class="details-label">Estimated Delivery</span>
+                                <span class="details-value" id="display-delivery-date">-</span>
+                            </div>
+                            <div class="details-item">
+                                <span class="details-label">Payment Method</span>
+                                <span class="details-value" id="display-payment-method">-</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="delivery-info-section">
+                        <h3>📍 Delivery Address</h3>
+                        <div class="delivery-address">
+                            <p id="display-delivery-name">-</p>
+                            <p id="display-delivery-address">-</p>
+                            <p id="display-delivery-phone">-</p>
+                        </div>
+                    </div>
+
+                    <div class="order-items-section">
+                        <h3>📦 Order Items</h3>
+                        <div id="display-order-items">
+                            <!-- Items will be rendered here -->
+                        </div>
+                    </div>
+
+                    <div class="order-total-section">
+                        <div class="total-row subtotal">
+                            <span>Subtotal:</span>
+                            <span id="display-subtotal">₹0</span>
+                        </div>
+                        <div class="total-row tax">
+                            <span>Tax (10%):</span>
+                            <span id="display-tax">₹0</span>
+                        </div>
+                        <div class="total-row grand-total">
+                            <span>Total Amount:</span>
+                            <span id="display-total">₹0</span>
+                        </div>
+                    </div>
+
+                    <div class="next-steps">
+                        <h3>📌 What's Next?</h3>
+                        <div class="steps-grid">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <h4>Order Confirmation</h4>
+                                <p>Confirmation email will be sent shortly</p>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <h4>Preparing</h4>
+                                <p>We're preparing your order for shipment</p>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <h4>On The Way</h4>
+                                <p>Track your package in real-time</p>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">4</div>
+                                <h4>Delivered</h4>
+                                <p>Your order arrives at your doorstep</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-info">
+                        <p>Have questions? Contact us at <strong>vaibhavgupta831002@gmail.com</strong> or call <strong>9523181377</strong></p>
+                    </div>
+
+                    <div class="success-buttons">
+                        <button onclick="showPage('home')" class="btn-primary">Continue Shopping</button>
+                        <button onclick="downloadReceipt()" class="btn-secondary">Download Receipt</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 vaibhav stationary. All rights reserved. | Bringing Quality to Your Desk</p>
+        <p style="font-size: 0.9rem; margin-top: 0.5rem;">For inquiries, contact us at: vaibhavgupta831002@gmail.com | Phone: 9523181377</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>

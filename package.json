@@ -1,0 +1,24 @@
+{
+  "name": "vaibhav-stationary",
+  "version": "1.0.0",
+  "description": "Premium Online Stationery Shop - vaibhav stationary",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'Open index.html in your browser'",
+    "build": "echo 'Static site - no build required'"
+  },
+  "keywords": [
+    "stationery",
+    "online-shop",
+    "ecommerce"
+  ],
+  "author": "vaibhav stationary",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/vaibhav-stationary.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
