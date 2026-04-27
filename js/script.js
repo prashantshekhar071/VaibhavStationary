@@ -2,13 +2,13 @@
 
 // Products Data
 const products = [
-    { id: 1, name: 'Pencil Set', price: 10, image: 'image/Pencil Set.jpg' },
-    { id: 2, name: 'Notebook (A4)', price: 20, image: 'image/Notebook (A4).jpg' },
-    { id: 3, name: 'Premium Pen Pack', price: 50, image: 'image/Premium Pen Pack.jpg' },
-    { id: 4, name: 'Scientific Calculator', price: 100, image: 'image/Scientific Calculator.jpg' },
-    { id: 5, name: 'Desk Lamp LED', price: 150, image: 'image/Desk Lamp LED.jpg' },
-    { id: 6, name: 'Laptop Backpack', price: 200, image: 'image/Laptop Backpack.jpg' },
-    { id: 7, name: 'Complete Stationery Kit', price: 280, image: 'image/Complete Stationery Kit.jpg' }
+    { id: 1, name: 'Pencil Set', price: 90, image: 'image/Pencil Set.jpg' },
+    { id: 2, name: 'Notebook (A4)', price: 150, image: 'image/Notebook (A4).jpg' },
+    { id: 3, name: 'Premium Pen Pack', price: 90, image: 'image/Premium Pen Pack.jpg' },
+    { id: 4, name: 'Scientific Calculator', price: 1000, image: 'image/Scientific Calculator.jpg' },
+    { id: 5, name: 'Desk Lamp LED', price: 1500, image: 'image/Desk Lamp LED.jpg' },
+    { id: 6, name: 'Laptop Backpack', price: 790, image: 'image/Laptop Backpack.jpg' },
+    { id: 7, name: 'Complete Stationery Kit', price: 1280, image: 'image/Complete Stationery Kit.jpg' }
 ];
 
 // Cart Management
@@ -689,6 +689,7 @@ Payment Method: ${
 Estimated Delivery: ${getEstimatedDeliveryDate()}
 
 ---------- CONTACT INFORMATION ----------
+Name : VAIBHAV GUPTA
 Email: vaibhavgupta831002@gmail.com
 Phone: 9523181377
 Address: Mill and Godown area, Burmamines, Jamshedpur, 
