@@ -2,13 +2,26 @@
 
 // Products Data
 const products = [
-    { id: 1, name: 'Pencil Set', price: 90, image: 'image/Pencil Set.jpg' },
-    { id: 2, name: 'Notebook (A4)', price: 150, image: 'image/Notebook (A4).jpg' },
-    { id: 3, name: 'Premium Pen Pack', price: 90, image: 'image/Premium Pen Pack.jpg' },
-    { id: 4, name: 'Scientific Calculator', price: 1000, image: 'image/Scientific Calculator.jpg' },
-    { id: 5, name: 'Desk Lamp LED', price: 1500, image: 'image/Desk Lamp LED.jpg' },
-    { id: 6, name: 'Laptop Backpack', price: 790, image: 'image/Laptop Backpack.jpg' },
-    { id: 7, name: 'Complete Stationery Kit', price: 1280, image: 'image/Complete Stationery Kit.jpg' }
+    { id: 1, name: 'Pencil Set', price: 120, image: 'image/Pencil Set.jpg' },
+    { id: 2, name: 'Notebook (A4)', price: 85, image: 'image/Notebook (A4).jpg' },
+    { id: 3, name: 'Premium Pen Pack', price: 65, image: 'image/Premium Pen Pack.jpg' },
+    { id: 4, name: 'Scientific Calculator', price: 1250, image: 'image/Scientific Calculator.jpg' },
+    { id: 5, name: 'Desk Lamp LED', price: 1899, image: 'image/Desk Lamp LED.jpg' },
+    { id: 6, name: 'Laptop Backpack', price: 1299, image: 'image/Laptop Backpack.jpg' },
+    { id: 7, name: 'Complete Stationery Kit', price: 1499, image: 'image/Complete Stationery Kit.jpg' },
+    { id: 8, name: 'Gel Pens Set (24 Colors)', price: 299, image: 'image/Gel Pens Set (24 Colors).jpg' },
+    { id: 9, name: 'Whiteboard Markers (12pc)', price: 145, image: 'image/Whiteboard Markers (12pc).jpg' },
+    { id: 10, name: 'A3 Drawing Pad', price: 189, image: 'image/A3 Drawing Pad.jpg' },
+    { id: 11, name: 'Stapler with Pins', price: 95, image: 'image/Stapler with Pins.jpg' },
+    { id: 12, name: 'Desk Organizer (5 Compartment)', price: 399, image: 'image/Desk Organizer (5 Compartment).jpg' },
+    { id: 13, name: 'File Folder (Pack of 10)', price: 125, image: 'image/File Folder (Pack of 10).jpg' },
+    { id: 14, name: 'Pen Stand (Wooden)', price: 299, image: 'image/Pen Stand (Wooden).jpg' },
+    { id: 15, name: 'Correction Tape (5 Rolls)', price: 99, image: 'image/Correction Tape (5 Rolls).jpg' },
+    { id: 16, name: 'Highlighter Markers (6pc)', price: 149, image: 'image/Highlighter Markers (6pc).jpg' },
+    { id: 17, name: 'Sticky Notes (3x3 inches)', price: 75, image: 'image/Sticky Notes (3x3 inches).jpg' },
+    { id: 18, name: 'Ruler Set (Scale 12 inch)', price: 85, image: 'image/Ruler Set (Scale 12 inch).jpg' },
+    { id: 19, name: 'Index Cards (100 Count)', price: 65, image: 'image/Index Cards (100 Count).jpg' },
+    { id: 20, name: 'Mouse Pad with Gel', price: 199, image: 'image/Mouse Pad with Gel.jpg' }
 ];
 
 // Cart Management
