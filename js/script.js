@@ -650,7 +650,7 @@ function downloadReceipt() {
     
     // Create receipt text
     let receiptText = `
-================== vaibhav stationary ==================
+================== Ajay stationary ==================
                     ORDER RECEIPT
 ==========================================================
 
@@ -702,13 +702,12 @@ Payment Method: ${
 Estimated Delivery: ${getEstimatedDeliveryDate()}
 
 ---------- CONTACT INFORMATION ----------
-Name : VAIBHAV GUPTA
-Email: vaibhavgupta831002@gmail.com
-Phone: 9523181377
-Address: Mill and Godown area, Burmamines, Jamshedpur, 
-Golmuri cum Jugsalali, East Singhbhum, Jharkhand - 831002
+Name : Ajay kumar singh
+Email: Ajayjsr4678@gmail.com
+Phone: 8935854474
+Address: Shanti om, Bishannagar zone road no. 2 B, Shuv Mandir road. Excel India model school more, Jamshedpur 831004 East Singhbhum, Jharkhand
 
-Thank you for shopping with vaibhav stationary!
+Thank you for shopping with Ajay stationary!
 ==========================================================
 `;
 

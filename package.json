@@ -1,7 +1,7 @@
 {
-  "name": "vaibhav-stationary",
+  "name": "ajay-stationary",
   "version": "1.0.0",
-  "description": "Premium Online Stationery Shop - vaibhav stationary",
+  "description": "Premium Online Stationery Shop - Ajay stationary",
   "main": "index.html",
   "scripts": {
     "start": "echo 'Open index.html in your browser'",
@@ -12,11 +12,11 @@
     "online-shop",
     "ecommerce"
   ],
-  "author": "vaibhav stationary",
+  "author": "Ajay stationary",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/vaibhav-stationary.git"
+    "url": "https://github.com/yourusername/ajay-stationary.git"
   },
   "engines": {
     "node": ">=14.0.0"

@@ -1,4 +1,4 @@
-# vaibhav stationary - Premium Online Stationery Shop
+# Ajay stationary - Premium Online Stationery Shop
 
 ## Overview
 A fully functional, professional online stationery shop website with complete e-commerce features including product catalog, shopping cart, checkout system, and order tracking.
@@ -82,7 +82,7 @@ A fully functional, professional online stationery shop website with complete e-
 ## Project Structure
 
 ```
-vaibhav-stationary/
+ajay-stationary/
 ├── index.html           # Main HTML file
 ├── css/
 │   └── style.css        # Main stylesheet
@@ -134,19 +134,19 @@ Then visit `http://localhost:8000` (or shown port) in your browser.
 
 1. **Initialize Git Repository** (if not done):
 ```bash
-cd vaibhav-stationary
+cd ajay-stationary
 git init
 ```
 
 2. **Add all files**:
 ```bash
 git add .
-git commit -m "Initial commit: vaibhav stationary e-commerce site"
+git commit -m "Initial commit: Ajay stationary e-commerce site"
 ```
 
 3. **Push to GitHub**:
 ```bash
-git remote add origin https://github.com/yourusername/vaibhav-stationary.git
+git remote add origin https://github.com/yourusername/ajay-stationary.git
 git branch -M main
 git push -u origin main
 ```
@@ -209,10 +209,10 @@ The `netlify.toml` file includes:
 
 ## Contact Information
 
-**vaibhav stationary**
-- Email: vaibhavgupta831002@gmail.com
-- Phone: 9523181377
-- Address: Mill and Godown area, Burmamines, Jamshedpur, Golmuri cum Jugsalali, East Singhbhum, Jharkhand - 831002
+**Ajay stationary**
+- Email: Ajayjsr4678@gmail.com
+- Phone: 8935854474
+- Address: Shanti om, Bishannagar zone road no. 2 B, Shuv Mandir road. Excel India model school more, Jamshedpur 831004 East Singhbhum, Jharkhand
 - Hours: Monday to Saturday, 10:00 AM - 7:00 PM IST
 
 ## Browser Support
