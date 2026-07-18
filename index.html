@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajay stationary - Premium Online Stationery Shop</title>
+    <link rel="icon" type="image/svg+xml" href="image/favicon.svg">
     <link rel="stylesheet" href="css/style.css?v=1.1">
 </head>
-<body>
+<body id="top">
 
     <!-- Header and Navigation -->
     <header>
@@ -16,6 +17,7 @@
                 <nav>
                     <a onclick="showPage('home')" class="active">Home</a>
                     <a onclick="showPage('products')">Products</a>
+                    <a onclick="showPage('policies')">Policies</a>
                     <a onclick="showPage('about')">About Us</a>
                 </nav>
                 <div class="cart-icon" onclick="showPage('cart')">
@@ -192,6 +194,44 @@
                 <div class="newsletter-form">
                     <input type="email" id="newsletter-email" placeholder="Enter your email address" required>
                     <button onclick="subscribeNewsletter()">Subscribe Now</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- POLICIES PAGE -->
+        <section id="policies" class="page-section">
+            <div class="policy-section">
+                <h2>📜 Our Policies</h2>
+                <div class="policy-grid">
+                    <div class="policy-card">
+                        <h3>Shipping Policy</h3>
+                        <p>We dispatch orders within 24 hours and deliver across India in 3–5 business days. Tracking details are shared after dispatch.</p>
+                    </div>
+                    <div class="policy-card">
+                        <h3>Return & Refund Policy</h3>
+                        <p>We offer a 30-day return window for damaged, defective, or incorrect items. Refunds are processed within 5–7 business days after approval.</p>
+                    </div>
+                    <div class="policy-card">
+                        <h3>Privacy Policy</h3>
+                        <p>Your personal information is kept secure and used only to process orders, provide support, and improve your shopping experience.</p>
+                    </div>
+                    <div class="policy-card">
+                        <h3>Terms & Conditions</h3>
+                        <p>By placing an order, you agree to the product availability, payment terms, and delivery policies published on this website.</p>
+                    </div>
+                    <div class="policy-card">
+                        <h3>Cancellation Policy</h3>
+                        <p>Orders can be cancelled before dispatch. Once shipped, cancellation is not possible and the order will follow our standard return process.</p>
+                    </div>
+                    <div class="policy-card">
+                        <h3>Payment & Security</h3>
+                        <p>We support UPI, cards, net banking, wallets, and cash on delivery for safe and convenient checkout.</p>
+                    </div>
+                </div>
+                <div class="policy-footer-links">
+                    <a href="mailto:Ajayjsr4678@gmail.com?subject=Customer%20Support%20Request&body=Hello%20Ajay%20Stationary%2C%0A%0AI%20would%20like%20to%20get%20help%20with%20my%20order%20or%20have%20a%20question.%0A%0AThank%20you." target="_blank" rel="noopener noreferrer">Email Support</a>
+                    <a href="tel:+918935854474">Call Us</a>
+                    <a href="#top">Back to Top</a>
                 </div>
             </div>
         </section>

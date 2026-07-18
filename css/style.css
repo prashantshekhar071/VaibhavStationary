@@ -765,6 +765,71 @@ nav a:hover, nav a.active {
     display: block;
 }
 
+/* Policies Section */
+.policy-section {
+    background: white;
+    padding: 3rem;
+    border-radius: 8px;
+    margin: 4rem 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.policy-section h2 {
+    color: #667eea;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.policy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 1.5rem;
+}
+
+.policy-card {
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.policy-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.policy-card h3 {
+    color: #667eea;
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+}
+
+.policy-card p {
+    color: #555;
+    line-height: 1.7;
+    font-size: 0.95rem;
+}
+
+.policy-footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.policy-footer-links a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.policy-footer-links a:hover {
+    text-decoration: underline;
+}
+
 /* Newsletter Section */
 .newsletter-section {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
